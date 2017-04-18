@@ -1,0 +1,13 @@
+html,
+body,
+ul,li {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background: #EEEEEE;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+}
