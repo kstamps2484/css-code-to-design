@@ -5,9 +5,23 @@ ul,li {
     padding: 0;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 nav {
     background: #EEEEEE;
     height: 50px;
     position: fixed;
     width: 100%;
+}
+
+.logo {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #070707;
 }
