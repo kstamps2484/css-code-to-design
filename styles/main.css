@@ -16,6 +16,11 @@ button {
     border: none;
 }
 
+h2 {
+    font-size: 18px;
+    color: #c6c6c6;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -111,5 +116,11 @@ input {
     border-bottom-right-radius: 3px;
     border-top-right-radius: 3px;
     border-left: none;
+
+}
+
+.primary-text {
+    color: #5527A6;
+    cursor: pointer;
 
 }
