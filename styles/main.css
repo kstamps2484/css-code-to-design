@@ -64,13 +64,13 @@ label {
 input {
     border: 1px solid #e5e5e5;
     border-radius: 2px;
-    height: 25px;
+    height: 30px;
 }
 
 #job-search {
     font-size: 18px;
     padding: 0 10px;
-    width: 350px;
+    width: 375px;
 }
 
 .search-glass {
