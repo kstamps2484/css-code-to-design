@@ -73,6 +73,43 @@ input {
     width: 375px;
 }
 
+.search-section {
+    margin-bottom: 45px;
+}
+
 .search-glass {
     margin-bottom: -11px;
+}
+
+.results-nav {
+    font-size: 0;
+}
+
+.results-nav-info {
+    border: 1px solid #DDDDDD;
+    margin: 0;
+    padding: 10px 25px;
+    font-size: medium;
+
+}
+
+.results-nav-button {
+    border: 1px solid #DDDDDD;
+    margin: 0;
+    padding: 10px;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.left-button {
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    border-right: none;
+}
+
+.right-button {
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    border-left: none;
+
 }
