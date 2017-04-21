@@ -7,18 +7,21 @@
     <title>Design to Code</title>
 </head>
 <body>
-<nav>
+<div class="top-navbar">
     <h1 class="logo"><a href="#">Greg's List</a></h1>
-    <ul class="top-navbar right">
-        <li><a href="#">Post</a></li>
-        <li><a href="#">Account</a></li>
-    </ul>
-</nav>
+    <nav>
+            <a href="#">Post</a>
+            <a href="#">Account</a>
+    </nav>
+</div>
 <main>
-    <h1></h1>
-    <label for="job-search">Search Jobs</label>
-    <input placeholder="Search software jobs" name="job-search" id="job-search">
-    <img src="images/magnifying-glass.png" class="search-glass">
+    <section class="search-section">
+        <form action="#">
+            <label for="job-search">Search Jobs</label>
+            <input placeholder="Search software jobs" name="job-search" id="job-search">
+            <input class="search-glass" type="image" role="button" src="images/magnifying-glass.png" alt="Search">
+        </form>
+    </section>
 </main>
 </body>
 </html>

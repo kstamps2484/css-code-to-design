@@ -1,52 +1,78 @@
-html,
-body,
-ul,li {
-    margin: 0;
+html, body, nav {
     padding: 0;
+    margin: 0;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
 }
 
-nav {
-    background: #EEEEEE;
-    height: 50px;
-    position: fixed;
-    width: 100%;
+main{
+    padding: 80px;
+    position: relative;
 }
+
+button {
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+nav a {
+    color: #5527A6;
+    margin-right: 15px;
+    font-size: 18px;
+}
+
 
 ul, li {
     display: inline-block;
 }
 
-a {
-    text-decoration: none;
+.top-navbar {
+    vertical-align: middle;
+    background: #EEEEEE;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    border-bottom: 1px solid #DDDDDD;
 }
 
 .logo {
-    margin-top: 10px;
-    margin-left: 10px;
-}
-
-.logo a {
-    color: #070707;
-}
-
-.right {
-    float: right;
-}
-
-.top-navbar {
-    margin-top: -45px;
-}
-
-.top-navbar a {
-    color: #7A7DB0;
-    font-size: large;
-    margin-right: 20px;
+    font-weight: normal;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
 }
 
 label {
-    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    border: 1px solid #e5e5e5;
+    border-radius: 2px;
+    height: 25px;
+}
+
+#job-search {
+    font-size: 18px;
+    padding: 0 10px;
+    width: 350px;
+}
+
+.search-glass {
+    margin-bottom: -11px;
 }
